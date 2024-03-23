@@ -1,0 +1,36 @@
+The larger the MAD, the greater variability there is in the data (the data is more spread out).
+The MAD helps determine whether the set's mean is a useful indicator of the values within the set.
+The larger the MAD, the less relevant is the mean as an indicator of the values within the set.
+
+In statistics, the mean squared error or MSE of an estimator is the expected value of the square of the "error."
+The smaller the mean squared error is, the closer the estimator is to the actual data. 
+Small mean squared error means that the randomness reflects the data more accurately than a larger mean squared error
+
+MAPE is asymmetric and reports higher errors if the forecast is more than the actual 
+and lower errors when the forecast is less than the actual.
+
+If the forecast is greater than actual demand than the bias is positive (indicates over-forecast). 
+The inverse, of course, results in a negative bias (indicates under-forecast).
+
+Positive tracking signals indicate that demand is greater than forecast. 
+Negative signals mean that demand is less than forecast. 
+
+Time fence. That point in time inside of which the forecast is no longer included in total demand 
+and projected available inventory calculations; inside this point, only customer orders are considered.
+
+safety time is usually only preferable to safety stock when it is possible to make accurate forecasts of future required shipments over the lead time, 
+otherwise safety stock is more robust in coping with changes in customer requirements in the lead time or with fluctuations in forecasts of lead time demand.
+
+ATP: a positive value indicates you have inventory available to sell, 
+a negative value indicates that your inventory is below your safety stock quantity.
+
+A smoothing constant is a variable used in time series analysis based on exponential smoothing. 
+This constant determines how the historical time series values are weighted.
+The higher the smoothing constant, the greater weight assigned to the values from the latest period and as a consequence, 
+the greater possibility for quick reaction to systematic changes in the time series.
+
+MPC system requirements are not static. As competitive conditions, 
+customer expectations, supplier capabilities, and internal needs change, 
+the MPC system needs to change. In addition, the changes that are 
+being addressed as we make one set of modifications may well be different 
+when we move to another change that needs addressing. 
